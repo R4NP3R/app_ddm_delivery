@@ -1,5 +1,6 @@
 import 'package:app_ddm_delivery/page/home.dart';
 import 'package:app_ddm_delivery/page/login.dart';
+import 'package:app_ddm_delivery/page/search.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +33,7 @@ class _HomePageState extends State<HomePage> {
           Padding(padding: EdgeInsets.all(8)),
         ],
       ),
-      body: LoginPage(),
+      body: SearchPage(),
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Colors.greenAccent,
         backgroundColor: Colors.amberAccent,
